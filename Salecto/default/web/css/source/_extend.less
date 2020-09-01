@@ -1,0 +1,58 @@
+// /**
+//  * Copyright © Magento, Inc. All rights reserved.
+//  * See COPYING.txt for license details.
+//  */
+
+@import '_buttons_extend.less';
+
+//
+//  Common
+//  _____________________________________________
+
+& when (@media-common = true) {
+
+	.logo {
+        float: right;
+        max-width: 50%;
+        position: relative;
+        z-index: 5;
+    }
+
+   .minicart-wrapper {
+		float: none;
+    }
+	
+	.product {
+        &-item {
+            .tocart {
+                .lib-font-size(13px);
+				background: #3cb043;
+				border: 1px solid #3cb043;
+                border-radius: 5px;
+                line-height: 1;
+                padding-bottom: @indent__s;
+                padding-top: @indent__s;
+                white-space: nowrap;
+            }
+        }
+    }
+
+}
+
+
+//
+//  Desktop
+//  _____________________________________________
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+	
+	.block-search {
+        float: left;
+        padding-left: 0px;
+        position: relative;
+        width: 250px;
+        z-index: 4;
+    }
+	
+}
+
