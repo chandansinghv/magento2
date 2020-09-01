@@ -7,7 +7,7 @@ Parent theme : Magento/luma
 Task: 
 
 1) Move logo to right and search bar with minicart icon move to left.
-2) Button color green with hover effect.
+2) Button color green with hover effect and edges should be rounded(curved) corner.
 3) Newsletter form on click subscribe button alert message "This is just a test." and form should stop submit.
 
 Developed custom theme -> Salecto/default <- require to add  path: app\design\frontend
